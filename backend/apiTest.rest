@@ -1,0 +1,30 @@
+### get home
+GET  http://localhost:4000
+### get all todos
+GET  http://localhost:4000/api/todos
+### get find todos
+GET  http://localhost:4000/api/todos/search/learn
+### get todo by id
+GET  http://localhost:4000/api/todos/68b4a5d8e44e6d3ced074301
+
+### Create New Todo
+POST http://localhost:4000/api/todos
+Content-Type: application/json
+
+{
+    "title":"Something random check",
+    "desc": ""
+}
+
+### Update Existing Todo by id
+patch http://localhost:4000/api/todos/68b4203a4a1a6602e98a48ca
+Content-Type: application/json
+
+{
+    "title":"test successfull",
+    "desc": "",
+    "completed": true
+}
+
+### Delete Todo by id
+DELETE http://localhost:4000/api/todos/68b4203a4a1a6602e98a48ca
