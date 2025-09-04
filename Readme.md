@@ -8,7 +8,6 @@ A full-stack todo management application built with React and Node.js, featuring
 ![React](https://img.shields.io/badge/React-19.1.1-blue)
 ![Node.js](https://img.shields.io/badge/Node.js-Express-green)
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB-brightgreen)
-![License](https://img.shields.io/badge/License-ISC-yellow)
 
 </div>
 
