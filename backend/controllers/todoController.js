@@ -51,7 +51,7 @@ exports.createTodo = async (req, res) => {
     res.status(201).json(todo)
 
   } catch (error) {
-    res.status(400).json({ error: error.message });
+    res.status(400).json({ error: error.message || "Failed to create todo" });
   }
 };
 
