@@ -12,6 +12,17 @@ A full-stack todo management application built with React and Node.js, featuring
 
 </div>
 
+##  🌐 Deployment Link
+
+## ✍️ [Todo List App](https://todo-list-mern-382a.vercel.app/)
+```bash
+https://todo-list-mern-382a.vercel.app/
+```
+
+## 📸 Screenshots
+
+![Home Page](screenShots/TodoListHomePage.png)
+
 ## ✨ Features
 
 ### Core Functionality
